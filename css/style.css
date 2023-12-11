@@ -2,23 +2,9 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #000A3D;
 	width: 100% !important;
 	height: 100% !important;
-}
-h2 {
-	margin: 0 0 20px 0;
-	color: #555;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 30px;
-}
-h3, h4 {
-	color: #222;
-	font-size: 18px;
-	font-weight: 300;
-	letter-spacing: 1px;
 }
 h5 {
 	text-transform: uppercase;
@@ -31,11 +17,11 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #555;
+	color: #000A3D;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 ul, ol {
 	list-style: none;
@@ -127,9 +113,8 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555;
+	color: #fff;
 	background-color: transparent;
-	border-color: #777;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
@@ -138,8 +123,7 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	background-color: #130606;
 }
 
 
@@ -150,7 +134,7 @@ hr {
 	width: 100%;
 	padding: 0;
 	text-align: center;
-	color: #333;
+	color: #fff;
 	background: url(../img/araise-esports-background.png) no-repeat center top;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -167,7 +151,7 @@ hr {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	color: #333;
+	color: #fff;
 }
 .intro p {
 	font-size: 20px;
@@ -178,13 +162,18 @@ header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
-/* About Section */
+
+
+
 #about {
 	padding: 120px 0;
+	background-color: #000A3D;
+	color: #fff;
 }
 #about .about-text {
 	margin-left: 10px;
 	text-align: center;
+	color: #fff;
 }
 #about img {
 	border-radius: 50%;
@@ -196,16 +185,28 @@ header .intro-text {
 	margin-top: 40px;
 	margin-bottom: 30px;
 	line-height: 22px;
+	color: #fff;
 }
 
+
+#roster {
+	background-color: #00082E;
+	color: #fff;
+	padding: 120px;
+}
+
+#roster h2 {
+	color: #fff;
+	text-align: center;
+}
 
 
 #contact {
 	padding: 120px 0 60px 0;
+	background-color: #000A3D;
 }
-#contact h3 {
+#contact h2 {
 	padding-top: 20px;
-	font-size: 20px;
 	font-weight: 400;
 	color: #fff;
 }
@@ -228,10 +229,9 @@ label {
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #2c3e50;
-	background-color: rgba(255,255,255,0.8);
+	color: #fff;
+	background-color: #00082E;
 	background-image: none;
-	border: 1px solid #999;
 	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -246,16 +246,16 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-color: #2c3e50;
+color: #fff;
 }
 .form-control:-moz-placeholder {
-color: #2c3e50;
+color: #fff;
 }
 .form-control::-moz-placeholder {
-color: #2c3e50;
+color: #fff;
 }
 .form-control:-ms-input-placeholder {
-color: #2c3e50;
+color: #fff;
 }
 #contact .social {
 	margin-top: 80px;
@@ -267,11 +267,8 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 22px;
 	padding: 4px;
-	color: #444;
+	color: #fff;
 	transition: all 0.5s;
-}
-#contact .social i.fa:hover {
-	color: #000;
 }
 .btn:active, .btn.active {
 	background-image: none;
