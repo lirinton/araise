@@ -176,8 +176,7 @@ header .intro-text {
 	color: #fff;
 }
 #about img {
-	border-radius: 50%;
-	width: 160px;
+	width: auto;
 	height: 160px;
 	display: inline-block;
 }
