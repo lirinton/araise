@@ -170,7 +170,7 @@ header .intro-text {
 
 /* Apply smooth transition to the affected elements */
 #nav, #about {
-    transition: transform 0.3s ease; /* Adjust the duration and easing as needed */
+    transition: transform 1s ease; /* Adjust the duration and easing as needed */
 }
 
 #about {
