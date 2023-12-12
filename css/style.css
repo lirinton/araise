@@ -63,16 +63,8 @@ hr {
 }
 #nav.affix {
 	position: fixed;
-	transition: position 1s;
 	top: 0;
-	width: 100%;
-	opacity: 80%;
-	transition: 2s;
-	z-index: 9999;
-}
-.navbar-placeholder {
-	display: block;
-	z-index: 1;
+	width: 100%
 }
 .navbar .navbar-nav {
 	display: inline-block;
@@ -172,11 +164,6 @@ header .intro-text {
 }
 
 
-
-/* Apply smooth transition to the affected elements */
-#nav, #about {
-    transition: transform 1s ease; /* Adjust the duration and easing as needed */
-}
 
 #about {
 	padding: 120px 0;
