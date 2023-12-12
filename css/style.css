@@ -63,10 +63,11 @@ hr {
 }
 #nav.affix {
 	position: fixed;
+	transition: position 1s;
 	top: 0;
 	width: 100%;
 	opacity: 60%;
-	transition: 1s;
+	transition: 2s;
 }
 .navbar .navbar-nav {
 	display: inline-block;
