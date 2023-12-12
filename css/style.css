@@ -68,9 +68,11 @@ hr {
 	width: 100%;
 	opacity: 80%;
 	transition: 2s;
+	z-index: 9999;
 }
-#nav.affix + .navbar-placeholder {
-    display: block; /* Make the placeholder visible when the navbar is affixed */
+.navbar-placeholder {
+	display: block;
+	z-index: 1;
 }
 .navbar .navbar-nav {
 	display: inline-block;
@@ -289,7 +291,4 @@ color: #fff;
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
-}
-.navbar-placeholder {
-    display: none; /* Initially hide the placeholder */
 }
