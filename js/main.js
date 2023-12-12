@@ -17,12 +17,23 @@ function main() {
         }
       });
 
-	// affix the navbar after scroll below header
-$('#nav').affix({
-      offset: {
-        top: $('header').height()
-      }
-});	
+// Get the header and navbar elements
+var header = $('header');
+var navbar = $('#nav');
+
+// Create a placeholder element with the same height as the navbar
+var placeholder = $('<div class="navbar-placeholder"></div>');
+placeholder.height(navbar.outerHeight());
+
+// Insert the placeholder before the navbar
+navbar.before(placeholder);
+
+// Affix the navbar after scroll below the header
+navbar.affix({
+    offset: {
+        top: header.height()
+    }
+});
 
 	
   	// Portfolio isotope filter
