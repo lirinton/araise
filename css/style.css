@@ -64,7 +64,19 @@ hr {
 #nav.affix {
 	position: fixed;
 	top: 0;
-	width: 100%
+	width: 100%;
+	z-index: 1000;
+	background-color: #fff; /* Change as needed */
+}
+
+#nav.affix + .navbar-placeholder {
+	display: block;
+}
+
+.navbar-placeholder {
+	display: none;
+	/* Initially hide the placeholder */
+	height: 72.667px; /* Adjust as needed, should match the height of your navbar */
 }
 .navbar .navbar-nav {
 	display: inline-block;
