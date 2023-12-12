@@ -60,24 +60,11 @@ hr {
 }
 #nav {
 	z-index: 9999;
-	height: 72.667px;
 }
 #nav.affix {
 	position: fixed;
 	top: 0;
-	width: 100%;
-	z-index: 1000;
-	height: 72.667px;
-}
-
-#nav.affix + .navbar-placeholder {
-	display: block;
-}
-
-.navbar-placeholder {
-	display: none;
-	/* Initially hide the placeholder */
-	height: 72.667px; /* Adjust as needed, should match the height of your navbar */
+	width: 100%
 }
 .navbar .navbar-nav {
 	display: inline-block;
