@@ -92,7 +92,6 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <form name="sentMessage" id="contactForm" action="https://api.sheetmonkey.io/form/28gcShN6sDTAEJiBWF9WwK" method="post">
-        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -111,6 +110,7 @@
           <textarea id="message" class="form-control" rows="4" placeholder="Message" name="Message" required></textarea>
           <p class="help-block text-danger"></p>
         </div>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
         <div id="success"></div>
         <input class="btn btn-default btn-lg" type="submit" value="submit">
       </form>
