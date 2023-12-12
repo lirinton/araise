@@ -65,7 +65,8 @@ hr {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	opacity: 50%;
+	opacity: 60%;
+	transition: 1s;
 }
 .navbar .navbar-nav {
 	display: inline-block;
