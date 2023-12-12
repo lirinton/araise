@@ -17,35 +17,12 @@ function main() {
         }
       });
 
-      $(document).ready(function() {
-        // Get the header and navbar elements
-        var header = $('header');
-        var navbar = $('#nav');
-    
-        // Calculate the initial offset for the content below the navbar
-        var initialOffset = header.height() + navbar.height();
-    
-        // Set the initial padding for the body
-        $('body').css('padding-top', initialOffset);
-    
-        // Affix the navbar after scroll below the header
-        navbar.affix({
-            offset: {
-                top: header.height()
-            }
-        });
-    
-        // Adjust the body padding when the navbar becomes affixed
-        navbar.on('affixed.bs.affix', function() {
-            $('body').css('padding-top', navbar.height());
-        });
-    
-        // Adjust the body padding when the navbar becomes unaffixed
-        navbar.on('affixed-top.bs.affix', function() {
-            $('body').css('padding-top', initialOffset);
-        });
-    });
-    
+	// affix the navbar after scroll below header
+$('#nav').affix({
+      offset: {
+        top: $('header').height()
+      }
+});	
 
 	
   	// Portfolio isotope filter
