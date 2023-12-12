@@ -69,6 +69,9 @@ hr {
 	opacity: 80%;
 	transition: 2s;
 }
+#nav.affix + .navbar-placeholder {
+    display: block; /* Make the placeholder visible when the navbar is affixed */
+}
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
