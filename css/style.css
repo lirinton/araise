@@ -60,13 +60,14 @@ hr {
 }
 #nav {
 	z-index: 9999;
+	height: 72.667px;
 }
 #nav.affix {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1000;
-	background-color: #fff; /* Change as needed */
+	height: 72.667px;
 }
 
 #nav.affix + .navbar-placeholder {
