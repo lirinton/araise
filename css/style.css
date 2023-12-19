@@ -408,3 +408,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+.row {
+	display: flex;
+	justify-content: center;
+}
